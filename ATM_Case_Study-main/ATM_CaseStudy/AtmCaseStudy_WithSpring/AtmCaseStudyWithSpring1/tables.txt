@@ -1,0 +1,7 @@
+create database atmcasestudy;
+use atmcasestudy;
+create table accinfo (accountNumber int, pin int, totalBalance int);
+insert into accinfo values(123,333,1000),(456,444,2000),(789,555,1500);
+create table trance(AccountNo int, tdate date,type varchar(20),amount int);
+
+*****ADD LIB FILES****
